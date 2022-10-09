@@ -8,7 +8,8 @@
     
     <string name="q_grass">Trawa jest zielona</string>
     <string name="q_sky">Niebo jest zielone</string>
-    
+    <string name="q_week">Tydzień ma 7 dni</string>
+
     <string name="a_correct">Poprawna odpowiedź!</string>
     <string name="a_incorrect">Niepoprawna odpowiedź :/</string>
 </resources>

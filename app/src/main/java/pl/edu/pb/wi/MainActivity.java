@@ -14,11 +14,12 @@ public class MainActivity extends AppCompatActivity {
     private Button falseButton;
     private Button nextButton;
     private TextView questionTextView;
-    private TextView numberOfPpointsTextView;
+    private TextView numberOfPointsTextView;
 
     private Question[] questions = new Question[]{
             new Question(R.string.q_grass, true),
-            new Question(R.string.q_sky, false)
+            new Question(R.string.q_sky, false),
+            new Question(R.string.q_week, true)
     };
 
     private int currentIndex = 0;
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         falseButton = findViewById(R.id.false_button);
         nextButton = findViewById(R.id.next_button);
         questionTextView = findViewById(R.id.question_text_view);
-        numberOfPpointsTextView = findViewById(R.id.number_of_points);
+        numberOfPointsTextView = findViewById(R.id.number_of_points);
 
         trueButton.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -66,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setActualPoints(){
-        numberOfPpointsTextView.setText(Integer.toString(actualPoints));
+        numberOfPointsTextView.setText("Twoje punkty: " + Integer.toString(actualPoints));
     }
 
     private void checkAnswerCorrectness(boolean userAnswer){
