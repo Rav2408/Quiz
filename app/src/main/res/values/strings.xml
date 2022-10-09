@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="button_true">Prawda</string>
+    <string name="button_false">Fałsz</string>
+    <string name="button_next">Następne</string>
+
+
+    
+    <string name="q_grass">Trawa jest zielona</string>
+    <string name="q_sky">Niebo jest zielone</string>
+    
+    <string name="a_correct">Poprawna odpowiedź!</string>
+    <string name="a_incorrect">Niepoprawna odpowiedź :/</string>
+</resources>
