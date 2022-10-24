@@ -5,11 +5,15 @@
     <string name="button_next">Następne</string>
 
 
-    
     <string name="q_grass">Trawa jest zielona</string>
     <string name="q_sky">Niebo jest zielone</string>
     <string name="q_week">Tydzień ma 7 dni</string>
 
     <string name="a_correct">Poprawna odpowiedź!</string>
     <string name="a_incorrect">Niepoprawna odpowiedź :/</string>
+
+    <string name="hint_question">Czy na pewno chcesz zobaczyć podpowiedź?</string>
+    <string name="hint_show">Podpowiedź</string>
+    <string name="answer_was_shown">Odpowiedź była już wyświetlona!</string>
+    <string name="return_button">Powrót</string>
 </resources>
